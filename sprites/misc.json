@@ -1,0 +1,6 @@
+{
+	"hud_lives_icon_slot202":    { "File": "livingtime.png", "Rect": "0,0,0,16" },
+	"ESS_Char_Es202":    { "File": "DataSelect.png", "Rect": "0,0,48,40", "Center": "24,40" },
+	"ESS_Life_Es202":  { "File": "DataSelect.png", "Rect": "28,42,16,16", "Center": "8,16" },
+	"ESS_Cont_Es202":  { "File": "DataSelect.png", "Rect": "4,40,16,22", "Center": "8,20" }
+}
