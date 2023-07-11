@@ -1,0 +1,45 @@
+global u8 MAshuraPalette
+
+function string getCharacterPaletteKey(u8 character)
+{
+	if (global.xtrachar == 202) && (character == CHARACTER_SONIC)
+	{
+		if (MAshuraPalette == 0x00)
+			return "AshuraNorm"
+		if (MAshuraPalette == 0x01)
+			return "AshuraSonic"
+		if (MAshuraPalette == 0x02)
+			return "AshuraTails"
+		if (MAshuraPalette == 0x03)
+			return "AshuraKnuckles"
+		if (MAshuraPalette == 0x04)
+			return "AshuraAmy"
+		if (MAshuraPalette == 0x05)
+			return "AshuraShadow"
+		if (MAshuraPalette == 0x06)
+			return "AshuraWechnia"
+		if (MAshuraPalette == 0x07)
+			return "AshuraError"
+		if (MAshuraPalette == 0x08)
+			return "AshuraReverse"
+		if (MAshuraPalette == 0x09)
+			return "Ashura2"
+		if (MAshuraPalette == 0x0a)
+			return "Ashura2Alt"
+		if (MAshuraPalette == 0x0b)
+			return "Ashura2Alt2"
+		if (MAshuraPalette == 0x0c)
+			return "AshuraSage"
+		if (MAshuraPalette == 0x0d)
+			return "AshuraBnP"
+		if (MAshuraPalette == 0x0e)
+			return "AshuraDillomados"
+		if (MAshuraPalette == 0x0f)
+			return "AshuraLBZ"
+		if (MAshuraPalette == 0x10)
+			return "AshuraShaMighty"
+		else
+			return "AshuraNorm"
+	}
+    return base.getCharacterPaletteKey(character)
+}

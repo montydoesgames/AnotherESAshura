@@ -1,0 +1,11 @@
+#if EXTRA_SAVE_SLOTS_ACTIVE
+
+function s32 ESS_saveBoxGetColor_Es(u8 ES_val)
+{
+    if (ES_val == 192)
+    return 0x68e0a8
+    else
+    return base.ESS_saveBoxGetColor_Es(ES_val)
+}
+
+#endif
