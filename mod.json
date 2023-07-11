@@ -1,0 +1,55 @@
+{
+	"Metadata":
+	{
+		"Name": "Extra Slot Ashura",
+		"Author": "montydoesgames",
+		"Description": "This makes like six Ashuras, right?"
+	},
+	"Settings":
+	{
+		"Visual poyos":
+		[
+			{
+				"InternalName": "ESMonAshuraPalette",
+
+				"DisplayName": "Palette",
+				"Variable": "MAshuraPalette",
+				"DefaultValue": "0x00",
+				"Category": "Appearance",
+				"Options":
+				{
+					"0x00": "Ashura",
+					"0x01": "Sonic/Bluckles",
+					"0x02": "Tails",
+					"0x03": "Knuckles",
+					"0x04": "Amy",
+					"0x05": "Shadow",
+					"0x06": "Wechnia",
+					"0x07": "Fatal Error",
+					"0x08": "Reverse Ashura",
+					"0x09": "Sonic 2 Ashura",
+					"0x0a": "S2 Ashura (w/ Red)",
+					"0x0b": "S2 Ashura (w/ Blue)",
+					"0x0c": "Sage",
+					"0x0d": "Bits and Pieces",
+					"0x0e": "Dillomados",
+					"0x0f": "LBZ2 ''EXE''",
+					"0x10": "Mightrus"
+				}
+			},
+			{
+				"InternalName": "ESMonAshuraPartner",
+
+				"DisplayName": "Partner",
+				"Variable": "AshuraPartner",
+				"DefaultValue": "0",
+				"Category": "Gameplay",
+				"Options":
+				{
+					"0": "Off",
+					"1": "On"
+				}
+			}
+    	]
+	}
+}
